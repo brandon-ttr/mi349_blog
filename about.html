@@ -8,21 +8,27 @@
     <meta name="description" content="About me, Brandon Truong">
     <meta name="author" content="Brandon Truong">
     <meta name="date" content="October 16, 2022">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
+                <li><h5>Blog Time</h5></li>
                 <li><a href="./index.html">Index</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="sideline"></div>
+        <div class="dogear"></div>
+        <div class="dogear bottom"></div>
         <section>
-            <h1>About Me:</h1>
+            <h2>About Me:</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49OEV3IsohGAN58FWHHnzPJqPzBpMZ7gtJ6mSwL9EJGJ3_xe52lDUN6o" 
                 alt="Another Brandon Truong"
                 width="300"
@@ -34,12 +40,23 @@
                 useful. I mean, you don't gotta do anything. I mean, just work on a project with me. I mean, please help me learn things so I can feel
                 more validated with my ability to do things.
             </p>
-            <h2>I work with:</h2>
-            <ul>
+            <h3>I work with:</h3>
+            <ul class="project-list">
                 <li>Random Projects</li>
                 <li>Projects That Aren't Random</li>
             </ul>
         </section>
+        <footer>
+            <section id="newsletter">
+                <h3>Subscribe to the Newsletter</h3>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                    <label for="submit"></label>
+                    <button type="submit" id="submit">Subscribe</button>
+                </form>
+            </section>
+        </footer>
     </main>
 </body>
 </html>
