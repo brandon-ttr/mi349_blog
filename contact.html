@@ -19,7 +19,6 @@
     <header>
         <nav>
             <ul>
-                <li><h5>Blog Time</h5></li>
                 <li><a href="./index.html">Index</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
@@ -35,24 +34,28 @@
         <section>
             <h2>Contact Me</h2>
             <form class="contact-form">
-                <label for="name">Name</label>
-                <input type="text" id="name">
+                <div class="form-left">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
 
-                <label for="email">Email</label>
-                <input type="email" id="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
 
-                <label for="reason-select">Reason For Contact</label>
-                <select name="contact-reason" id="reason-select">
-                <option value="hi">Hi</option>
-                <option value="contractor">Looking for a contractor</option>
-                <option value="interview">Interested in an interview</option>
-                </select>
+                    <label for="reason-select">Reason For Contact</label>
+                    <select name="contact-reason" id="reason-select">
+                    <option value="hi">Hi</option>
+                    <option value="contractor">Looking for a contractor</option>
+                    <option value="interview">Interested in an interview</option>
+                    </select>
+                </div>
 
-                <label for="comment">Comment</label>
-                <textarea id="comment" name="comment" rows="10" cols="35">
-        Let me know if you want to say anything else!</textarea
-                >
-                <button type="submit" id="contact-submit">Submit</button>
+                <div class="form-right">
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" name="comment" rows="10" cols="35">
+            Let me know if you want to say anything else!</textarea
+                    >
+                    <button type="submit" id="contact-submit">Submit</button>
+                </div>
             </form>
         </section>
         <footer>
